@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios';
+import Alert from './alert';
 
 import Box from '@mui/material/Box';
 import OutlinedInput from '@mui/material/OutlinedInput';
@@ -10,6 +11,8 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 
 export default function Create() {
+
+  const [message, setMessage] = useState('')
   
   const [guitarStat, setGuitarStat] = useState({
 
@@ -32,6 +35,12 @@ export default function Create() {
   });
   
   const createGuitarStat = () => {
+
+    if (guitarStat.guitarH === 0) {
+      setMessage('Please enter a number greater than 1')
+      return
+    }
+
     axios.post('http://localhost:5000/stats', guitarStat).then( () => {
       window.location.reload(false);
     })
