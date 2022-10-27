@@ -1,6 +1,6 @@
 Getting started:
 
-In the terminal, run the command 'npm install'.
+In the terminal, run the command 'npm install' to install necessary dependencies.
 
 Once the packages finish installing run the command, 'npm start'.
 
@@ -10,7 +10,7 @@ If running npm start does not open your browser and go to the site automatically
 
 The client end should now be operational. 
 
-To make use of the server functions, go to 'Practice-Log-server' repository in my github and follow the README instructions there.
+To make use of the server functions, go to the 'Practice-Log-server' repository in my github and follow the README instructions there.
 
 Using the app:
 
