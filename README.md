@@ -1,4 +1,4 @@
-Getting started:
+Set up:
 
 In the terminal, run the command 'npm install' to install necessary dependencies.
 
@@ -10,7 +10,9 @@ If running npm start does not open your browser and go to the site automatically
 
 The client end should now be operational. 
 
-To make use of the server functions, go to the 'Practice-Log-server' repository in my github and follow the README instructions there.
+Server:
+
+Refer to the repository 'Practice-Log-server' for instructions on setting up the back-end of the app.
 
 Using the app:
 
