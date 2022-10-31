@@ -1,4 +1,4 @@
-Set up:
+Client setup:
 
 In the terminal, run the command 'npm install' to install necessary dependencies.
 
